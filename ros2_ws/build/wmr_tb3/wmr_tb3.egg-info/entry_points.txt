@@ -1,0 +1,4 @@
+[console_scripts]
+slip_injector = wmr_tb3.slip_injector:main
+tracking_node = wmr_tb3.tracking_node:main
+

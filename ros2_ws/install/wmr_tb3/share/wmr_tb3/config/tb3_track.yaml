@@ -1,0 +1,14 @@
+wmr_tracking:
+  ros__parameters:
+    trajectory: circle      # circle | line
+    mode: paper             # paper (adaptive slip comp) | nocomp
+    pose_source: odom       # odom | amcl
+    control_rate: 20.0
+    duration: 0.0           # 0 -> run forever (Ctrl-C to stop)
+    circle_radius: 1.0
+    circle_wr: 0.12         # v = R*wr = 0.12 m/s  (TB3 limit 0.22)
+    line_speed: 0.12
+    line_alpha: 0.0
+    Hx: 1.5
+    Hy: 1.5
+    Hs: 0.2

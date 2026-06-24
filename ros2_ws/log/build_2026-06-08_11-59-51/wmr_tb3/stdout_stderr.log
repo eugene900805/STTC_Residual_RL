@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/wmr_tb3/wmr_tb3.egg-info
+writing ../../build/wmr_tb3/wmr_tb3.egg-info/PKG-INFO
+writing dependency_links to ../../build/wmr_tb3/wmr_tb3.egg-info/dependency_links.txt
+writing entry points to ../../build/wmr_tb3/wmr_tb3.egg-info/entry_points.txt
+writing requirements to ../../build/wmr_tb3/wmr_tb3.egg-info/requires.txt
+writing top-level names to ../../build/wmr_tb3/wmr_tb3.egg-info/top_level.txt
+writing manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+reading manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+writing manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eugene/STT/ros2_ws/build/wmr_tb3/build
+creating /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib
+creating /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+copying wmr_tb3/controller_core.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+copying wmr_tb3/tracking_node.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+copying wmr_tb3/__init__.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+copying wmr_tb3/trajectories.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+running install
+running install_lib
+creating /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/controller_core.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/tracking_node.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/__init__.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/trajectories.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/controller_core.py to controller_core.cpython-310.pyc
+byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/tracking_node.py to tracking_node.cpython-310.pyc
+byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/trajectories.py to trajectories.cpython-310.pyc
+running install_data
+creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index
+creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index/resource_index
+creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index/resource_index/packages
+copying resource/wmr_tb3 -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index/resource_index/packages
+copying package.xml -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3
+creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/launch
+copying launch/track.launch.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/launch
+creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/config
+copying config/tb3_track.yaml -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/config
+running install_egg_info
+Copying ../../build/wmr_tb3/wmr_tb3.egg-info to /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3-0.1.0-py3.10.egg-info
+running install_scripts
+Installing tracking_node script to /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/wmr_tb3
+writing list of installed files to '/home/eugene/STT/ros2_ws/build/wmr_tb3/install.log'

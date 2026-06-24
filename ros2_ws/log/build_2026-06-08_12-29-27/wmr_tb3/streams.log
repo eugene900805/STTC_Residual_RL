@@ -1,0 +1,56 @@
+[0.706s] Invoking command in '/home/eugene/STT/ros2_ws/src/wmr_tb3': PYTHONPATH=/home/eugene/STT/ros2_ws/build/wmr_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wmr_tb3 build --build-base /home/eugene/STT/ros2_ws/build/wmr_tb3/build install --record /home/eugene/STT/ros2_ws/build/wmr_tb3/install.log --single-version-externally-managed install_data
+[0.977s] running egg_info
+[0.978s] creating ../../build/wmr_tb3/wmr_tb3.egg-info
+[0.978s] writing ../../build/wmr_tb3/wmr_tb3.egg-info/PKG-INFO
+[0.979s] writing dependency_links to ../../build/wmr_tb3/wmr_tb3.egg-info/dependency_links.txt
+[0.979s] writing entry points to ../../build/wmr_tb3/wmr_tb3.egg-info/entry_points.txt
+[0.979s] writing requirements to ../../build/wmr_tb3/wmr_tb3.egg-info/requires.txt
+[0.979s] writing top-level names to ../../build/wmr_tb3/wmr_tb3.egg-info/top_level.txt
+[0.979s] writing manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+[0.980s] reading manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+[0.981s] writing manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+[0.981s] running build
+[0.981s] running build_py
+[0.981s] creating /home/eugene/STT/ros2_ws/build/wmr_tb3/build
+[0.981s] creating /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib
+[0.982s] creating /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+[0.982s] copying wmr_tb3/controller_core.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+[0.982s] copying wmr_tb3/tracking_node.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+[0.982s] copying wmr_tb3/__init__.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+[0.982s] copying wmr_tb3/slip_injector.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+[0.983s] copying wmr_tb3/trajectories.py -> /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3
+[0.983s] running install
+[0.983s] running install_lib
+[0.984s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+[0.984s] copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/controller_core.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+[0.984s] copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/tracking_node.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+[0.985s] copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/__init__.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+[0.985s] copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/slip_injector.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+[0.985s] copying /home/eugene/STT/ros2_ws/build/wmr_tb3/build/lib/wmr_tb3/trajectories.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3
+[0.986s] byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/controller_core.py to controller_core.cpython-310.pyc
+[0.987s] byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/tracking_node.py to tracking_node.cpython-310.pyc
+[0.988s] byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/__init__.py to __init__.cpython-310.pyc
+[0.988s] byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/slip_injector.py to slip_injector.cpython-310.pyc
+[0.988s] byte-compiling /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3/trajectories.py to trajectories.cpython-310.pyc
+[0.989s] running install_data
+[0.989s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index
+[0.989s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index/resource_index
+[0.990s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index/resource_index/packages
+[0.990s] copying resource/wmr_tb3 -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/ament_index/resource_index/packages
+[0.990s] copying package.xml -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3
+[0.990s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/launch
+[0.990s] copying launch/track.launch.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/launch
+[0.990s] copying launch/gazebo_slip.launch.py -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/launch
+[0.991s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/config
+[0.991s] copying config/tb3_track.yaml -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/config
+[0.991s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/models
+[0.991s] creating /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/models/tb3_burger_slip
+[0.991s] copying models/tb3_burger_slip/model.sdf -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/models/tb3_burger_slip
+[0.991s] copying models/tb3_burger_slip/model.config -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/models/tb3_burger_slip
+[0.991s] running install_egg_info
+[0.993s] Copying ../../build/wmr_tb3/wmr_tb3.egg-info to /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3-0.1.0-py3.10.egg-info
+[0.994s] running install_scripts
+[1.014s] Installing slip_injector script to /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/wmr_tb3
+[1.014s] Installing tracking_node script to /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/wmr_tb3
+[1.015s] writing list of installed files to '/home/eugene/STT/ros2_ws/build/wmr_tb3/install.log'
+[1.034s] Invoked command in '/home/eugene/STT/ros2_ws/src/wmr_tb3' returned '0': PYTHONPATH=/home/eugene/STT/ros2_ws/build/wmr_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wmr_tb3 build --build-base /home/eugene/STT/ros2_ws/build/wmr_tb3/build install --record /home/eugene/STT/ros2_ws/build/wmr_tb3/install.log --single-version-externally-managed install_data

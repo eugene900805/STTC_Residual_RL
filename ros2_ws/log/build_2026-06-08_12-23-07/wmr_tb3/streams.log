@@ -1,0 +1,22 @@
+[0.723s] Invoking command in '/home/eugene/STT/ros2_ws/src/wmr_tb3': PYTHONPATH=/home/eugene/STT/ros2_ws/build/wmr_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wmr_tb3 build --build-base /home/eugene/STT/ros2_ws/build/wmr_tb3/build install --record /home/eugene/STT/ros2_ws/build/wmr_tb3/install.log --single-version-externally-managed install_data
+[0.991s] running egg_info
+[0.991s] writing ../../build/wmr_tb3/wmr_tb3.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../../build/wmr_tb3/wmr_tb3.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../../build/wmr_tb3/wmr_tb3.egg-info/entry_points.txt
+[0.992s] writing requirements to ../../build/wmr_tb3/wmr_tb3.egg-info/requires.txt
+[0.992s] writing top-level names to ../../build/wmr_tb3/wmr_tb3.egg-info/top_level.txt
+[0.993s] reading manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../../build/wmr_tb3/wmr_tb3.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.995s] running install
+[0.995s] running install_lib
+[0.996s] running install_data
+[0.997s] copying models/tb3_burger_slip/model.sdf -> /home/eugene/STT/ros2_ws/install/wmr_tb3/share/wmr_tb3/models/tb3_burger_slip
+[0.997s] running install_egg_info
+[0.999s] removing '/home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3-0.1.0-py3.10.egg-info' (and everything under it)
+[0.999s] Copying ../../build/wmr_tb3/wmr_tb3.egg-info to /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages/wmr_tb3-0.1.0-py3.10.egg-info
+[1.000s] running install_scripts
+[1.020s] Installing tracking_node script to /home/eugene/STT/ros2_ws/install/wmr_tb3/lib/wmr_tb3
+[1.020s] writing list of installed files to '/home/eugene/STT/ros2_ws/build/wmr_tb3/install.log'
+[1.038s] Invoked command in '/home/eugene/STT/ros2_ws/src/wmr_tb3' returned '0': PYTHONPATH=/home/eugene/STT/ros2_ws/build/wmr_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eugene/STT/ros2_ws/install/wmr_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wmr_tb3 build --build-base /home/eugene/STT/ros2_ws/build/wmr_tb3/build install --record /home/eugene/STT/ros2_ws/build/wmr_tb3/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+[15:20:38] START ppo
+[15:25:41] DONE  ppo (exit 0)
+[15:25:41] START td3
+[16:06:01] DONE  td3 (exit 0)
+[16:06:01] START ddpg
+[16:42:04] DONE  ddpg (exit 0)
+[16:42:04] ALL DONE

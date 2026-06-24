@@ -1,0 +1,160 @@
+/home/eugene/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Using cpu device
+Training PPO for 300000 steps (traj=mix, tag=ppo)
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 22.2        |
+|    ep_rew_mean          | -59.6       |
+| time/                   |             |
+|    fps                  | 983         |
+|    iterations           | 20          |
+|    time_elapsed         | 41          |
+|    total_timesteps      | 40960       |
+| train/                  |             |
+|    approx_kl            | 0.007005327 |
+|    clip_fraction        | 0.07        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.47       |
+|    explained_variance   | 0.886       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.00729     |
+|    n_updates            | 190         |
+|    policy_gradient_loss | -0.00709    |
+|    std                  | 0.834       |
+|    value_loss           | 0.0104      |
+-----------------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 264        |
+|    ep_rew_mean          | -64.3      |
+| time/                   |            |
+|    fps                  | 985        |
+|    iterations           | 40         |
+|    time_elapsed         | 83         |
+|    total_timesteps      | 81920      |
+| train/                  |            |
+|    approx_kl            | 0.00981327 |
+|    clip_fraction        | 0.116      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.25      |
+|    explained_variance   | 0.0404     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.00267   |
+|    n_updates            | 390        |
+|    policy_gradient_loss | -0.00847   |
+|    std                  | 0.747      |
+|    value_loss           | 0.0884     |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 385         |
+|    ep_rew_mean          | -134        |
+| time/                   |             |
+|    fps                  | 998         |
+|    iterations           | 60          |
+|    time_elapsed         | 123         |
+|    total_timesteps      | 122880      |
+| train/                  |             |
+|    approx_kl            | 0.010694582 |
+|    clip_fraction        | 0.143       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.22       |
+|    explained_variance   | -2.35       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0121     |
+|    n_updates            | 590         |
+|    policy_gradient_loss | -0.00624    |
+|    std                  | 0.737       |
+|    value_loss           | 0.00117     |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 374         |
+|    ep_rew_mean          | -110        |
+| time/                   |             |
+|    fps                  | 1006        |
+|    iterations           | 80          |
+|    time_elapsed         | 162         |
+|    total_timesteps      | 163840      |
+| train/                  |             |
+|    approx_kl            | 0.012642997 |
+|    clip_fraction        | 0.12        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.03       |
+|    explained_variance   | -7.05       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.00206    |
+|    n_updates            | 790         |
+|    policy_gradient_loss | -0.00539    |
+|    std                  | 0.668       |
+|    value_loss           | 0.00385     |
+-----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 391         |
+|    ep_rew_mean          | -48.7       |
+| time/                   |             |
+|    fps                  | 1006        |
+|    iterations           | 100         |
+|    time_elapsed         | 203         |
+|    total_timesteps      | 204800      |
+| train/                  |             |
+|    approx_kl            | 0.009235398 |
+|    clip_fraction        | 0.105       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.86       |
+|    explained_variance   | -12.4       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.016      |
+|    n_updates            | 990         |
+|    policy_gradient_loss | -0.00782    |
+|    std                  | 0.62        |
+|    value_loss           | 0.00109     |
+-----------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 400          |
+|    ep_rew_mean          | -23.3        |
+| time/                   |              |
+|    fps                  | 999          |
+|    iterations           | 120          |
+|    time_elapsed         | 245          |
+|    total_timesteps      | 245760       |
+| train/                  |              |
+|    approx_kl            | 0.0057034963 |
+|    clip_fraction        | 0.088        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.66        |
+|    explained_variance   | -1.08        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.00156     |
+|    n_updates            | 1190         |
+|    policy_gradient_loss | -0.00452     |
+|    std                  | 0.563        |
+|    value_loss           | 7.02e-05     |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 400         |
+|    ep_rew_mean          | -6.5        |
+| time/                   |             |
+|    fps                  | 1005        |
+|    iterations           | 140         |
+|    time_elapsed         | 285         |
+|    total_timesteps      | 286720      |
+| train/                  |             |
+|    approx_kl            | 0.009708034 |
+|    clip_fraction        | 0.121       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.47       |
+|    explained_variance   | -7.35       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.000604   |
+|    n_updates            | 1390        |
+|    policy_gradient_loss | -0.00503    |
+|    std                  | 0.514       |
+|    value_loss           | 8.21e-05    |
+-----------------------------------------
+saved model -> rl/models/ppo_mix.zip
+saved vecnorm stats -> rl/models/ppo_mix_vecnorm.pkl
